@@ -1,6 +1,6 @@
 {
   "name": "kafka-node",
-  "description": "node client for Apache kafka, only support kafka 0.8 and above",
+  "description": "node client for Apache kafka 0.8.x, only support kafka 0.8 and above",
   "version": "0.0.9",
   "main": "kafka.js",
   "dependencies": {
@@ -8,17 +8,28 @@
     "binary": "~0.3.0",
     "buffer-crc32": "~0.2.1",
     "node-zookeeper-client": "*",
-    "lodash": "~2.2.1"
+    "underscore": "1.5.x",
+    "underscore.string": "2.3.x",
+    "lodash": "~2.2.1",
+    "express": "2.5.0",
+    "jade": ">= 0.0.1"
   },
   "devDependencies": {
     "mocha": "~1.12.0",
     "should": "~1.2.2",
     "line-by-line": "~0.1.1",
-    "optimist": "~0.6.0"
+    "optimist": "~0.6.0",
+    "winston": "0.7.x",
+    "jscoverage": "0.3.x",
+    "coveralls": "1.1.x",
+    "mockery": "1.4.x",
+    "hottap": "1.0.x",
+    "sinon": "1.5.x",
+    "buffermaker": "0.0.x"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:SOHU-Co/kafka-node.git"
+    "url": "git@github.com:smartbees/kafka-node.git"
   },
   "scripts": {
     "test": "make test"
